@@ -1,0 +1,40 @@
+table, th, td{
+  border: 1px solid black;
+}
+.lists{
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  position: fixed;
+  padding: 20px;
+border: 20px ;
+}
+@media screen and (max-width:760px) {
+  .lists{
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    padding: 20px;
+  }
+}
+.tab input{
+border: none;
+}
+.tab input:focus{
+  border: none;
+  border-bottom: solid yellow;
+  border-style: none;
+  outline: none;
+  width: 150px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+.footer small{
+  left: 0;
+  bottom: 0;
+}
