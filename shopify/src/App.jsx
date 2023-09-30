@@ -124,8 +124,8 @@ function App() {
           <input type='submit' value="Submit" class="bg-danger text-center"/>
           
         </div>
-        <footer className='footer'>
-          <small>@copywrite 2023</small>
+        <footer className='footers'>
+          <small>@copywrite {new Date().getFullYear()}</small>
         </footer>
         </div>
     </>

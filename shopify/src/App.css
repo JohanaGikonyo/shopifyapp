@@ -9,13 +9,22 @@ table, th, td{
   padding: 20px;
 border: 20px ;
 }
-@media screen and (max-width:760px) {
+@media (max-width:480px) {
   .lists{
     width: 100%;
     border: none;
     margin-top: 10px;
     padding: 20px;
+    position: static;
   }
+  .tab{
+width: 100%;
+  }
+  .footers{
+    position: static;
+    margin-top: 10px;
+    width: 100%;
+     }
 }
 .tab input{
 border: none;
@@ -27,14 +36,27 @@ border: none;
   outline: none;
   width: 150px;
 }
-.footer{
+.footers{
   background-color: black;
   color: white;
   bottom: 0;
   position: fixed;
   width: 100%;
 }
-.footer small{
+.footers small{
   left: 0;
   bottom: 0;
+}
+@media (max-width:480px){
+  .footers{
+    position: static;
+  }
+  table{
+    width: 100%;
+   row-gap: 3px;
+   column-gap: 2px;
+   line-height: 4px;
+   
+
+  }
 }
